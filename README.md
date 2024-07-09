@@ -18,9 +18,11 @@ Reconstruction of 3D Objects Using Neural Radiance Field (NeRF) on Thermal Data
 2. **Downloading Instant-NGP Files** 
 
    a. Download the appropriate package for your GPU:
-    - For RTX 3000 & 4000 series: Download Link
-    - For RTX 2000 series: Download Link  
-    - For GTX 1000 series: Download Link
+   
+- [**RTX 3000 & 4000 series, RTX A4000&ndash;A6000**, and other Ampere & Ada cards](https://github.com/NVlabs/instant-ngp/releases/download/continuous/Instant-NGP-for-RTX-3000-and-4000.zip)
+- [**RTX 2000 series, Titan RTX, Quadro RTX 4000&ndash;8000**, and other Turing cards](https://github.com/NVlabs/instant-ngp/releases/download/continuous/Instant-NGP-for-RTX-2000.zip)
+- [**GTX 1000 series, Titan Xp, Quadro P1000&ndash;P6000**, and other Pascal cards](https://github.com/NVlabs/instant-ngp/releases/download/continuous/Instant-NGP-for-GTX-1000.zip)
+
     
    b. Extract the files
     - Extract the downloaded files to a folder on your computer.
@@ -57,7 +59,8 @@ After preparation is complete, the Instant NGP GUI will automatically launch and
 
 
 8. **Additional Tips**
-   * For more information on optimal capture and training methods, refer to NVIDIA's official document here.
+   * For more information on optimal capture and training methods, refer to NVIDIA's official document [here](https://developer.nvidia.com/blog/getting-started-with-nvidia-instant-nerfs/).
+   * For advanced NeRF dataset creation, you can use SIGGRAPH tutorial [here](https://www.nvidia.com/en-us/on-demand/session/siggraph2022-sigg22-s-16/).
    * Note that NeRF is designed for use with color files (RGB), so the recommendations should be taken with a grain of salt when working on thermal images or grayscale data.
    * At the same time, it is imperative to go deeper and understand how to use the tool, capabilities and data collection methods in order to succeed in reaching better results.
 
